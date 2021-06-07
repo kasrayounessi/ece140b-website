@@ -1,0 +1,871 @@
+:root{
+    --blue-1: #B0C4DE;
+    --blue-2: #4169E1;
+    --blue-3: #87CEFA;
+    --white: #F8F8FF;
+    --black: #000000;
+    --background:#FAEBD7;
+}
+  
+body{
+    font-size: 1.6em;
+}
+  
+.header{
+    background: var(--blue-1);
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+    font-variant-caps: petite-caps;
+    border: solid 2px var(--black);
+}
+  
+.menu{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-top: 1rem;
+    background: var(--blue-2);
+  
+    
+}
+  
+.menu div{
+    border: 2px solid var(--black);
+    padding:5px;
+    
+}
+  
+  
+.menu a{
+    text-decoration:none;
+    color: var(--white);
+    
+}
+  
+.title{
+    text-decoration:underline;
+}
+  
+.message{
+    background: var(--background);
+    border:3px solid var(--black);
+    padding:10px;
+    
+}
+  
+.sub:hover{
+    
+      background:var(--blue-1);
+}
+  
+#one{
+    position:relative;
+    opacity:0;
+    
+}
+  
+  
+#two{
+    position:relative;
+    bottom:4.15em;
+    opacity:0;
+    
+}
+  
+#three{
+    position:relative;
+    bottom:8.3em;
+    opacity:0;
+}
+  
+#four{
+    position:relative;
+    bottom:12.45em;
+    opacity:0;
+    
+}
+  
+#five{
+    position:relative;
+    bottom: 16.6em;
+    opacity:0;
+}
+  
+#six{
+    position:relative;
+    bottom: 20.75em;
+    opacity:0;
+    
+}
+  
+#seven{
+    position:relative;
+    bottom: 24.9em;
+    opacity:0;
+    
+}
+  
+  
+  
+  
+.team{
+    position:relative;
+    width:22%;
+    bottom:23em;
+    font-size:1em;
+    
+    
+}
+  
+.menu-header{
+    background: var(--blue-1);
+    padding:5px;
+    border:2px solid var(--black);
+    font-size:0.8em;
+}
+  
+.team a{
+    text-decoration:none;
+    color:var(--white);
+    background:var(--blue-2);
+    display:block;
+    padding:5px;
+    border:1px solid var(--black);
+}
+  
+.team a:hover{
+    background: var(--blue-1);
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.web-wireframe{
+    position:relative;
+    bottom:39em;
+    width:100%;
+}
+
+.web-wireframe img{
+    max-width:100%;
+}
+
+.classmates-holder{
+    width:50%;
+    position:relative;
+    bottom: 29em;
+    left: 20em;
+}
+  
+.header-c{
+    background: var(--blue-1);
+    text-align:center;
+    border: 2px solid var(--black);
+    font-size: 0.85em;
+}
+.classmates{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    text-align:center;
+    font-size:0.8rem;
+}
+  
+.team-c{
+    border:1px solid var(--black);
+    background: var(--blue-2);
+    color: var(--white);
+    padding:2px;
+}
+  
+.team-c:hover{
+    background: var(--blue-1);
+}
+  
+#one-c{
+    display:grid;
+    position:relative;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#one-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#two-c{
+    display:grid;
+    position:relative;
+    bottom:1.2em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#two-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#three-c{
+    display:grid;
+    position:relative;
+    bottom:2.4em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#three-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#four-c{
+    display:grid;
+    position:relative;
+    bottom:3.6em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#four-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#five-c{
+    display:grid;
+    position:relative;
+    bottom:4.8em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#five-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#six-c{
+    display:grid;
+    position:relative;
+    bottom:6.0em;
+    grid-template-columns: auto auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#six-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#seven-c{
+    display:grid;
+    position:relative;
+    bottom:7.2em;
+    grid-template-columns: auto auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#seven-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#eight-c{
+    display:grid;
+    position:relative;
+    bottom:8.4em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#eight-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#nine-c{
+    display:grid;
+    position:relative;
+    bottom:9.6em;
+    grid-template-columns: auto auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#nine-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#ten-c{
+    display:grid;
+    position:relative;
+    bottom:10.8em;
+    grid-template-columns: auto auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#ten-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#eleven-c{
+    display:grid;
+    position:relative;
+    bottom:12em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#eleven-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#twelve-c{
+    display:grid;
+    position:relative;
+    bottom:13.2em;
+    grid-template-columns: auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#twelve-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+  
+#thirteen-c{
+    display:grid;
+    position:relative;
+    bottom:14.4em;
+    grid-template-columns: auto auto auto auto;
+    background: var(--background);
+    text-align:center;
+    opacity:0;
+    
+}
+  
+#thirteen-c a{
+    text-decoration:none;
+    color:var(--black);
+    
+}
+.tc{
+     border: 1px solid var(--black);
+     font-size:0.8rem;
+     padding:0.43rem;
+     font-variant-caps: petite-caps;
+     font-weight: bold;
+     background: var(--background);
+}
+
+
+
+@media screen and (max-width: 1040px){
+    body{
+        font-size:1em;
+    }
+    .header{
+        font-size:1rem;
+    }
+    #one{
+        position:relative;
+        opacity:0;
+        
+    }
+      
+      
+    #two{
+        position:relative;
+        bottom:4.8em;
+        opacity:0;
+        
+    }
+      
+    #three{
+        position:relative;
+        bottom:9.6em;
+        opacity:0;
+    }
+      
+    #four{
+        position:relative;
+        bottom:14.4em;
+        opacity:0;
+        
+    }
+      
+    #five{
+        position:relative;
+        bottom: 19.2em;
+        opacity:0;
+    }
+      
+    #six{
+        position:relative;
+        bottom: 24em;
+        opacity:0;
+        
+    }
+      
+    #seven{
+        position:relative;
+        bottom: 28.8em;
+        opacity:0;
+        
+    }
+    .team{
+        position:relative;
+        width:22%;
+        bottom:25em;
+        font-size:1em;
+        
+        
+    }
+    .menu-header{
+        font-size:0.6em;
+
+
+    }
+    .web-wireframe{
+        bottom:47em;
+    }
+    .classmates-holder{
+        position:relative;
+        width:60%;
+        bottom: 46em;
+        left:22em;
+        font-size:0.7em;
+    }
+
+
+    #two-c{
+        position:relative;
+        bottom:2.3em;
+    }
+    #three-c{
+        position:relative;
+        bottom:4.6em;
+
+    }
+    #four-c{
+        position:relative;
+        bottom:6.9em;
+    }
+    #five-c{
+        position:relative;
+        bottom:9.2em;
+    }
+    #six-c{
+        position:relative;
+        bottom:11.5em;
+    }
+    #seven-c{
+        position:relative;
+        bottom:13.8em;
+        
+    }
+    #eight-c{
+        position:relative;
+        bottom:16.1em;
+    }
+    #nine-c{
+        position:relative;
+        bottom:18.4em;
+        
+    }
+    #ten-c{
+        position:relative;
+        bottom:20.7em;
+    }
+    #eleven-c{
+        position:relative;
+        bottom:23em;
+        
+    }
+    #twelve-c{
+        position:relative;
+        bottom:25.3em;
+    }
+    #thirteen-c{
+        position:relative;
+        bottom:27.6em;
+        
+    }
+
+    .header-c{
+        padding:3px;
+    }
+    
+
+
+    .team-c{
+        font-size:0.5em;
+        padding:2.5px;
+    }
+
+
+    .tc{
+        font-size:0.85em;
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+      
+    body{
+        font-size:0.7em;
+        
+    }
+    .header{
+        background: var(--blue-1);
+        padding:0.1rem;
+        width:100%;
+        text-align: center;
+        color: var(--black);
+        font-weight: bold;
+        font-variant-caps: petite-caps;
+        font-size:0.7rem;
+        border: solid 2px var(--black);
+    }
+      
+    .menu{
+        display:block;
+        background:var(--blue-2);
+        width:100%;
+        text-align:center;
+    }
+
+    .menu a{
+        text-decoration:none;
+        color:var(--white);
+    }
+      
+    .menu div{
+        border:1px solid var(--black);
+        
+    }
+      
+    .sub:hover{
+        
+          background:var(--blue-1);
+    }
+      
+    .team{
+        position:relative;
+        width:100%;
+        bottom:29em;
+    }
+      
+    .menu-header{
+        background: var(--blue-1);
+        padding:5px;
+        border:1px solid var(--black);
+    }
+      
+    .team a{
+        text-decoration:none;
+        color:var(--white);
+        background:var(--blue-2);
+        display:block;
+        padding:5px;
+        border:1px solid var(--black);
+    }
+      
+    .team a:hover{
+        background: var(--blue-1);
+    }
+      
+    .message{
+        background: var(--background);
+        border:1px solid var(--black);
+        padding:10px;
+    }
+      
+    #one{
+        position:relative;
+        opacity:0;
+        
+    }
+      
+      
+    #two{
+        position:relative;
+        bottom:5.15em;
+        opacity:0;
+        
+    }
+      
+    #three{
+        position:relative;
+        bottom:10.3em;
+        opacity:0;
+    }
+      
+    #four{
+        position:relative;
+        bottom:15.5em;
+        opacity:0;
+        
+    }
+      
+    #five{
+        position:relative;
+        bottom: 20.6em;
+        opacity:0;
+    }
+      
+    #six{
+        position:relative;
+        bottom: 25.75em;
+        opacity:0;
+        
+    }
+      
+    #seven{
+        position:relative;
+        bottom: 30.9em;
+        opacity:0;
+        
+    }
+    .web-wireframe{
+        bottom:45em;
+    }
+
+    .classmates-holder{
+        position:relative;
+        width:100%;
+        left:0em;
+        bottom: 36em;
+        font-size:0.6em;
+    }
+
+    .header-c{
+        border:1px solid var(--black);
+        font-size:0.7em;
+    }
+
+    .classmates{
+        width:100%;
+    }
+
+    .team-c{
+        font-size:0.3em;
+    }
+
+    #one-c{
+        display:grid;
+        position:relative;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+
+      
+    #two-c{
+        display:grid;
+        position:relative;
+        bottom:3.82em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+    }
+      
+      
+    #three-c{
+        display:grid;
+        position:relative;
+        bottom:7.64em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #four-c{
+        display:grid;
+        position:relative;
+        bottom:11.46em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #five-c{
+        display:grid;
+        position:relative;
+        bottom:15.28em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #six-c{
+        display:grid;
+        position:relative;
+        bottom:19.1em;
+        grid-template-columns: auto auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #seven-c{
+        display:grid;
+        position:relative;
+        bottom:22.92em;
+        grid-template-columns: auto auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #eight-c{
+        display:grid;
+        position:relative;
+        bottom:26.74em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #nine-c{
+        display:grid;
+        position:relative;
+        bottom:30.56em;
+        grid-template-columns: auto auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #ten-c{
+        display:grid;
+        position:relative;
+        bottom:34.38em;
+        grid-template-columns: auto auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #eleven-c{
+        display:grid;
+        position:relative;
+        bottom:38.2em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #twelve-c{
+        display:grid;
+        position:relative;
+        bottom:42.02em;
+        grid-template-columns: auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+      
+      
+    #thirteen-c{
+        display:grid;
+        position:relative;
+        bottom:45.84em;
+        grid-template-columns: auto auto auto auto;
+        background: var(--background);
+        text-align:center;
+        opacity:0;
+        
+    }
+
+    .tc{
+        font-size:0.7em;
+    }
+      
+}
+
+
+  

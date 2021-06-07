@@ -1,0 +1,139 @@
+:root{
+    --blue-1: #B0C4DE;
+    --blue-2: #4169E1;
+    --white: #F8F8FF;
+    --black: #000000;
+    --background: #FAEBD7;
+    
+    
+}
+  
+body{
+    font-size:1.6em;
+    background: var(--white);
+    
+}
+
+.header{
+    background: var(--blue-1);
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+    font-variant-caps: petite-caps;
+    border: solid 2px var(--black);
+}
+
+.content{
+    background: var(--background);
+    width:33%;
+    border: 2px solid var(--black);
+    text-align:center;
+}
+.home{
+    background: var(--background);
+    margin-top:0.5rem;
+    width:18%;
+    border: 2px solid var(--black);
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    color: var(--black);
+}
+
+.guestbook{
+    position:relative;
+    width: 30%;
+    text-align:center;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background: var(--blue-2);
+    border: 3px solid var(--blue-1);
+}
+
+.database-records{
+    position:relative;
+    width:60%;
+    font-size:0.7rem;
+}
+  
+  
+.records{
+    border-collapse: collpase;
+    width:100%;
+}
+  
+  
+.records td, .records th{
+    border:3px solid var(--blue-1);
+    background:var(--blue-2);
+    padding:10px;
+}
+  
+.records tr:hover{
+    color: var(--white);
+    background: var(--blue-1);
+}
+
+@media screen and (max-width:1000px){
+    body{
+        font-size:1em;
+    }
+    .header{
+        font-size:1rem;
+    }
+    .database-records{
+        position:relative;
+        width:45%;
+    }
+    #f-name{
+        width:80%;
+    }
+    
+    #l-name{
+        width:80%;
+    }
+    
+    #emails{
+        width:80%;
+    }
+    
+    #comment{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:650px){
+    body{
+        font-size:0.45em;
+    }
+    .header{
+        font-size:0.6rem;
+        border:1px solid var(--black);
+    }
+    .home{
+        width:30%;
+        border:1px solid var(--black);
+    }
+    table, caption{
+        font-size:inherit;
+        font-weight:inherit;
+        font-style:inherit;
+        font-variant:inherit;
+    }
+    .database-records{
+        position:relative;
+        font-size:0.2em;
+        width:80%;
+    }
+    .guestbook{
+        width:45%;
+    }
+    .content{
+        border: 1px solid var(--black);
+    }
+    
+}
+
